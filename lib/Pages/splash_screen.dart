@@ -2,7 +2,6 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:new_nike/Pages/onboard.dart';
 
-
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
@@ -24,9 +23,10 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(91, 158, 225, 1),
+      backgroundColor: Color.fromRGBO(91, 158, 245, 1),
       body: Center(
-        child: Text('NIKEYBOOTS',
+        child: Text(
+          'NIKEYBOOTS',
           style: TextStyle(
             fontSize: 28,
             color: Color.fromRGBO(248, 249, 250, 1),
