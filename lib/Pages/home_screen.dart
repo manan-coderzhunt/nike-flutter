@@ -29,7 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
           child: ListView(
             children: <Widget>[
               DrawerHeader(
-                child: Text('Left Drawer Header',
+                child: Text('Left Drawer ',
                 style: TextStyle(
                   color: Colors.white,
                 ),),
