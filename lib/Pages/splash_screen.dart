@@ -23,7 +23,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(91, 158, 245, 1),
+      backgroundColor: Color.fromRGBO(44, 44, 44, 1),
       body: Center(
         child: Text(
           'NIKEYBOOTS',
